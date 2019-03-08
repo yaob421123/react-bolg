@@ -1,0 +1,52 @@
+.context-box {
+  padding: 15px 20px;
+  border-bottom: 1px solid #f6f6f6;
+  display: flex;
+  align-items: center;
+  .info {
+    flex:1;
+    .title {
+      font-size: 18px;
+      color: #2e3135;
+      margin-bottom: 5px;
+      .sp {
+        cursor:pointer;
+        .kw {
+          font-style:normal;
+          color: red;
+        }
+        &:visited {
+          color: #909090;
+        }
+        &:hover {
+          color: #007fff;
+        }
+      }
+      
+    }
+    .meta {
+      font-size: 12px;
+      color: #909090;
+      .x {
+        margin: 0 5px;
+      }
+      .tag {
+        cursor:pointer;
+      }
+    }
+  }
+  .thumb {
+    margin-left: 15px;
+    .icon {
+      width: 40px;
+      height: 40px;
+      display: block;
+    }
+  }
+  &:last-child {
+    border:none;
+  }
+  &:hover {
+    background:#fbfbfb;
+  }
+}

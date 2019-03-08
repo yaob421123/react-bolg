@@ -1,0 +1,63 @@
+.ht {
+  height: 60px;
+}
+.header-container {
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #f1f1f1;
+  position: fixed;
+  left:0;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  .header {
+    max-width: 960px;
+    margin:auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .logo {
+      margin-right: 20px;
+    }
+    .menu-box {
+      flex:1;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      .menu {
+        height: 100%;
+        a {
+          padding:0 20px;
+          color: #71777c;
+          font-size: 16px;
+          height: 100%;
+          display: flex;
+          align-items:center;
+          &:hover {
+            color: #007fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.search-containar {
+  background: rgba(227,231,236,.2); 
+  border: 1px solid #e2e2e2;
+  display: flex;
+  width: 240px;
+  .input {
+    padding: 10px;
+    flex:1;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  .icon {
+    padding:0 5px;
+    cursor:pointer;
+  }
+}

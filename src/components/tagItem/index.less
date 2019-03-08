@@ -1,0 +1,41 @@
+.tag-box {
+  background: #fff;
+  .title {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #f6f6f6;
+  }
+  .tag-list {
+    padding: 15px;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .tag {
+      margin-right: 12px;
+      margin-bottom: 12px;
+      background-color: #f3f6f3;
+      cursor: pointer;
+      height: 30px;
+      color: inherit;
+      font-size: 12px;
+      line-height: 30px;
+      padding-left: 22px;
+      padding-right: 22px;
+      border-radius: 30px;
+      &:hover {
+        background: #007fff;
+        color: #fff;
+      }
+    }
+  }
+}
+.fiexd-tag-box {
+  position: fixed;
+  top:80px;
+  width: 240px;
+}
